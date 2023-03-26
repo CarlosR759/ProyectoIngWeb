@@ -69,5 +69,38 @@ h2 {
 }
 
 body{
-    background-color: green;
+   background-color:green; 
+}
+
+#ArticuloDestacado{
+    background-color: #e4e4d9;
+    background-image: url("NoJSPhoto.webp");
+    padding: 1em;
+    width: 50%;
+    height: 180px;
+    box-sizing: border-box;
+    border-radius: 25%;
+    text-align: center;
+}
+
+#RecursoDelDia{
+    background-color: #e4e4d9;
+    background-image: url('CSS/NoJSPhoto.webp');
+    padding: 1em;
+    width: 50%;
+    height: 180px;
+    box-sizing: border-box;
+    border-radius: 25%;
+    text-align: center;
+}
+
+#Portales{
+    background-color: #e4e4d9;
+    padding: 1em;
+    padding-top: 30px;
+    width: 50%;
+    height: 180px;
+    box-sizing: border-box;
+    border-radius: 25%;
+    text-align: left;
 }
