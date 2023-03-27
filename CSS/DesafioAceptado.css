@@ -85,6 +85,10 @@ footer{
     box-sizing: border-box; 
     border-radius: 25%;
     text-align: center;
+    font-family: 'Lato', sans-serif;
 }
 
+p {
+    font-family: 'Lato', sans-serif; 
+}
 
