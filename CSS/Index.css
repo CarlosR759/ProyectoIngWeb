@@ -1,10 +1,11 @@
 #box {
     display:flex;
-    background-color: rgb(114, 114, 170);  
+    background-color: rgb(104, 127, 200);  
     font-family: 'Lato', sans-serif;
   }
 
   h1 {
+    font-size: 50px;
     font-family: 'Lato', sans-serif;
   }
 
@@ -18,9 +19,9 @@
 }
 
 #logo {
-    height:60px;
-    width:60px;
-    padding:20px;
+    height:90px;
+    width:100px;
+    padding:10px;
 }
 
 #login {
@@ -69,7 +70,7 @@ h2 {
 }
 
 body{
-    background-color: green;
+    background-color: rgb(110, 193, 162);
 }
 
 p {
