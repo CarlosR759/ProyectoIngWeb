@@ -102,6 +102,20 @@ p {
     background-color: rgb(104, 127, 200);
 }
 
+#bigbuttons2{
+    padding: 20px;
+    margin: 20px;
+    font-size: 20px;
+    background-color: rgb(104, 127, 200);
+}
+
+#bigbuttons3{
+    padding: 20px;
+    margin: 20px;
+    font-size: 20px;
+    background-color: rgb(104, 127, 200);
+}
+
 #boxlayer2{
     display: flex;
     justify-content: center;
