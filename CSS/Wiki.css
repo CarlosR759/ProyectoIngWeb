@@ -89,6 +89,7 @@ body{
     background-color: #e4e4d9;
     background-image: url("NoJSPhoto.webp");
     padding: 1em;
+    padding-left: 120px;
     width: 50%;
     height: 180px;
     box-sizing: border-box;
@@ -101,6 +102,7 @@ body{
     background-color: #e4e4d9;
     background-image: url('CSS/NoJSPhoto.webp');
     padding: 1em;
+    padding-left: 120px;
     width: 50%;
     height: 180px;
     box-sizing: border-box;
@@ -112,7 +114,8 @@ body{
 #Portales{
     background-color: #e4e4d9;
     padding: 1em;
-    padding-top: 30px;
+    padding-top: 10px;
+    padding-left: 120px;
     width: 50%;
     height: 180px;
     box-sizing: border-box;

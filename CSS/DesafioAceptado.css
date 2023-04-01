@@ -80,7 +80,8 @@ footer{
 #desafio{
     background-color: #e4e4d9;
     padding: 1em;
-    padding-top: 30px;
+    padding-top: 3px;
+    padding-left: 115px;
     width: 50%;
     height: 180px;
     box-sizing: border-box; 
@@ -92,7 +93,8 @@ footer{
 #desafio2{
     background-color: #e4e4d9;
     padding: 1em;
-    padding-top: 30px;
+    padding-top: 3px;
+    padding-left: 115px;
     width: 50%;
     height: 180px;
     box-sizing: border-box; 
