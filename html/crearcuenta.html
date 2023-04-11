@@ -24,23 +24,35 @@
         </header>
 
         <!-- CREAR CUENTA -->
-        <div id="crearcuenta">
-            <label>Correo electrónico: </label>
-            <input type="text" name="email" id="email" placeholder="Correo electrónico"> <br>
-            <label>Crear contraseña: </label>
-            <input type="text" name="contraseña" id="contraseña" placeholder="Contraseña"> <br>
-            <label>Reescribir contraseña: </label>
-            <input type="text" name="contraseña" id="contraseña2" placeholder="Contraseña"> <br>
-            <div>
-                <form action = "paginaprincipal.html">
-                    <button>Crear cuenta</button>
-                </form>
-            </div>
-            <div>
-                <form action = "index.html">
-                    <button>Volver</button>
-                </form>
-            </div>
-        </div>
+        <section>
+        <form id="crearcuenta" novalidate>
+            <ul>
+                <li>
+                    <span id="mensaje"></span>
+                    <label>Correo electrónico: </label>
+                    <input type="text" name="email" id="email" placeholder="Correo electrónico" required>
+                </li>
+                    <span id="mensaje"></span>
+                    <label>Crear contraseña: </label>
+                    <input type="text" name="contraseña" id="contraseña" placeholder="Contraseña" required>
+                <li>
+                    <span id="mensaje"></span>
+                    <label>Reescribir contraseña: </label>
+                    <input type="text" name="contraseña" id="contraseña2" placeholder="Contraseña" required>
+                </li>
+                <li>
+                    <form action = "paginaprincipal.html">
+                        <button type="submit">Crear cuenta</button>
+                    </form>
+                </li>
+                <li>
+                    <form action = "index.html">
+                        <button>Volver</button>
+                    </form>
+                </li>
+            </ul>
+        </form>
+        </section>
+        <script src="JS/app.js"></script>
     </body>
 </html>
