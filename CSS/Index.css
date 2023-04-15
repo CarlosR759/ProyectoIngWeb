@@ -1,128 +1,132 @@
+@charset "UTF-8";
 #box {
-    display:flex;
-    background-color: rgb(104, 127, 200);  
-    font-family: 'Lato', sans-serif;
-  }
+  display: flex;
+  background-color: rgb(104, 127, 200);
+  font-family: "Lato", sans-serif;
+}
 
-  h1 {
-    font-size: 50px;
-    font-family: 'Lato', sans-serif;
-  }
+h1 {
+  font-size: 50px;
+  font-family: "Lato", sans-serif;
+}
 
 #box2 {
-    display:flex;
-    justify-content: center;
-    flex-direction:column;
-    align-items: center;
-    text-align: center;
-    font-family: 'Lato', sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: "Lato", sans-serif;
 }
 
 #logo {
-    height:90px;
-    width:100px;
-    padding:10px;
+  height: 90px;
+  width: 100px;
+  padding: 10px;
 }
 
 #login {
-    justify-content: center;
-    flex-direction:column;
-    align-items: center;
-    text-align: center; 
-    font-family: 'Lato', sans-serif;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: "Lato", sans-serif;
 }
 
 #crearcuenta {
-    justify-content: center;
-    flex-direction:column;
-    align-items: center;
-    text-align: center;
-    font-family: 'Lato', sans-serif;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: "Lato", sans-serif;
 }
 
 ul {
-    display: table;
-    width: 60%;
+  display: table;
+  width: 60%;
 }
+
 li {
-    font-family: 'Lato', sans-serif;
-    display: table-cell;
+  font-family: "Lato", sans-serif;
+  display: table-cell;
 }
 
 button {
-    font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 #nombre {
-    font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 #contraseña {
-    font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 #contraseña2 {
-    font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 h2 {
-    font-family: 'Lato', sans-serif; 
-    text-align: center;
+  font-family: "Lato", sans-serif;
+  text-align: center;
 }
 
-body{
-    background-color: rgb(110, 193, 162);
+body {
+  background-color: rgb(110, 193, 162);
 }
 
 p {
-    font-family: 'Lato', sans-serif;  
+  font-family: "Lato", sans-serif;
 }
 
-#desafio{
-    background-color: #e4e4d9;
-    padding: 5.9em;
-    padding-top: 3px;
-    padding-left: 160px;
-    width: 50%;
-    height: 180px;
-    box-sizing: border-box; 
-    border-radius: 25%;
-    text-align: center;
-    font-family: 'Lato', sans-serif;
+#desafio {
+  background-color: #e4e4d9;
+  padding: 5.9em;
+  padding-top: 3px;
+  padding-left: 160px;
+  width: 50%;
+  height: 180px;
+  box-sizing: border-box;
+  border-radius: 25%;
+  text-align: center;
+  font-family: "Lato", sans-serif;
 }
 
-#boxlayer1{
-    display: flex;
-    justify-content: center;
+#boxlayer1 {
+  display: flex;
+  justify-content: center;
 }
 
-#bigbuttons{
-    padding: 20px;
-    margin: 20px;
-    font-size: 20px;
-    background-color: rgb(104, 127, 200);
+#bigbuttons {
+  padding: 20px;
+  margin: 20px;
+  font-size: 20px;
+  background-color: rgb(104, 127, 200);
 }
 
-#bigbuttons2{
-    padding: 20px;
-    margin: 20px;
-    font-size: 20px;
-    background-color: rgb(104, 127, 200);
+#bigbuttons2 {
+  padding: 20px;
+  margin: 20px;
+  font-size: 20px;
+  background-color: rgb(104, 127, 200);
 }
 
-#bigbuttons3{
-    padding: 20px;
-    margin: 20px;
-    font-size: 20px;
-    background-color: rgb(104, 127, 200);
+#bigbuttons3 {
+  padding: 20px;
+  margin: 20px;
+  font-size: 20px;
+  background-color: rgb(104, 127, 200);
 }
 
-#boxlayer2{
-    display: flex;
-    justify-content: center;
+#boxlayer2 {
+  display: flex;
+  justify-content: center;
 }
 
-#panelDeBotones{
-    background-color: rgb(104, 127, 200);
-    padding: 10px;
+#panelDeBotones {
+  background-color: rgb(104, 127, 200);
+  padding: 10px;
 }
+
+/*# sourceMappingURL=Index.css.map */
