@@ -20,6 +20,11 @@ $(document).ready(function() {
     required: "la contraseña es requerida",
     pwcheck: "la contraseña no tiene un formato válido",
     minlength: "debe contener 8 caracteres"
+    },
+    contrasenya2:{
+    required: "la contraseña es requerida",
+    pwcheck: "la contraseña no tiene un formato válido",
+    minlength: "debe contener 8 caracteres"
     }
 }
 });

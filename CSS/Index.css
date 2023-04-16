@@ -71,7 +71,7 @@ h2 {
 }
 
 body{
-    background-color: rgb(110, 193, 162);
+    background-color: rgb(110, 193, 162) !important;
 }
 
 p {

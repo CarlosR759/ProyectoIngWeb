@@ -1,32 +1,15 @@
-// document.addEventListener("DOMContentLoaded",function(){
-//     document.getElementById("crearcuenta").addEventListener("submit",function(evento){
-//          let email=document.getElementById("email").value;
-//          let contrasenya=document.getElementById("contrasenya").value;
-//          let recontrasenya=document.getElementById("contrasenya2").value;
-//          const coleccion=document.getElementById("crearcuenta").getElementsByTagName("li");
-//          if(email==""){
-//             // tratando de usar alerts en vez de mensajes con span
-//             alert("El correo electrónico está vacio");
-//         }
-//          if(contrasenya==""){
-//               coleccion[1].querySelector("span").innerHTML="La contraseña está vacia";
-//          }
-//          if(contrasenya!=recontrasenya){
-//             coleccion[1].querySelector("span").innerHTML="Las contraseñas deben concordar";
-//          }
-//           evento.preventDefault();
-//     }); 
-// });
-
 // Example starter JavaScript for disabling form submissions if there are invalid fields
 (() => { // funcion flecha, reemplaza la palabra funcion con tipo void 
     'use strict'
   
     // Fetch all the forms we want to apply custom Bootstrap validation styles to
-    const forms = document.querySelectorAll('.needs-validation') // query selector para la funcion en la etiqueta form en el html
+    const forms = document.querySelectorAll('.needs-validation'); // query selector para la funcion en la etiqueta form en el html
     
     // capturando el valor del campo contrasenya 
     let password=document.getElementById("contrasenya");
+
+    // capturando el valor del campo contrasenya2
+    let password2=document.getElementById("contrasenya2");
 
     // Loop over them and prevent submission
     Array.from(forms).forEach(form => {
@@ -63,7 +46,5 @@
     }
 
 // LISTA DE QUEHACERES 
-// - validar el formato del correo (con @) 
-// - dar alerts con mensajes mas claras con input invalido 
 // - pon un enlace a la pagina principal en el buton de submit 
 // - hacer la validacion para la pagina de login tambien

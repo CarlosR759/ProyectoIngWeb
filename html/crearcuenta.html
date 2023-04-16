@@ -24,41 +24,45 @@
             </div>
         </header>
 
-        <!-- CREAR CUENTA -->
-        <section>
-        <form id="crearcuenta" novalidate>
-            <ul>
-                <li>
-                    <span id="mensaje"></span>
-                    <label>Correo electrónico: </label>
-                    <input type="text" name="email" id="email" placeholder="Correo electrónico" required>
-                </li>
-                    <span id="mensaje"></span>
-                    <label>Crear contraseña: </label>
-                    <input type="text" name="contraseña" id="contraseña" placeholder="Contraseña" required>
-                <li>
-                    <span id="mensaje"></span>
-                    <label>Reescribir contraseña: </label>
-                    <input type="text" name="contraseña" id="contraseña2" placeholder="Contraseña" required>
-                </li>
-                <li>
-                    <form action = "paginaprincipal.html">
-                        <button type="submit">Crear cuenta</button>
-                    </form>
-                </li>
-                <li>
-                    <form action = "index.html">
-                        <button>Volver</button>
-                    </form>
-                </li>
-            </ul>
-        </form>
-        </section>
+        <div class="container">
+
+            <section>
+                <!--FORMULARIO-->
+                <form class="row g-3 needs-validation">
+
+                    <ul id="campos">
+                        <li>
+                            <div class="col-md-4">
+                                <label for="email" class="form-label">Correo electrónico</label>
+                                <input type="email" class="form-control" id="email" name="email" required>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="col-md-4">
+                                <label for="contrasenya" class="form-label">Contraseña</label>
+                                <input type="password" class="form-control" id="contrasenya" name="contrasenya" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" required>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="col-md-4">
+                                <label for="contrasenya2" class="form-label">Reescribir contraseña</label>
+                                <input type="password" class="form-control" id="contrasenya2" name="contrasenya" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" required>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="col-12">
+                                <button class="btn btn-primary" type="submit">Crear cuenta</button>
+                            </div>
+                        </li>
+                    
+                    </ul>
+                </form>
+            </section>
+        </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" async defer crossorigin="anonymous"></script>
-        <script src="JS/app.js"></script>
-        <script src="JS/appJquery.js"></script>
+        <script src="../JS/app.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js" crossorigin="anonymous"></script>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js" defer></script>
-        <script src="js/appJquery.js" defer></script>
+        <script src="../JS/appJquery.js" defer></script>
     </body>
 </html>
