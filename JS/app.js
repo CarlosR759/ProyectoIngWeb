@@ -24,11 +24,14 @@
             // sacar la contraseña
             console.log("la contraseña es: " + password.value);
 
-          event.preventDefault()
-          event.stopPropagation()
+          event.preventDefault();
+          event.stopPropagation();
         }
-  
-        form.classList.add('was-validated') // significa que el formulario fue validado 
+        form.classList.add('was-validated'); // significa que el formulario fue validado 
+        // FIXME: PON ACA UNA FUNCION PARA IR A LA PAGINA PRINCIPAL
+        document.getElementById("submit").onclick = function () {
+          window.location = "paginaprincipal.html";
+      };
       }, false)
     })
   })()
@@ -43,7 +46,7 @@
     } else {
     return false;
     }
-    }
+  }
 
 // LISTA DE QUEHACERES 
 // - pon un enlace a la pagina principal en el buton de submit 

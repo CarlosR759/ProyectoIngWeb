@@ -9,6 +9,11 @@
     font-size: 50px;
   }
 
+  #panelDeBotones{
+    background-color: rgb(104, 127, 200);
+    padding: 10px;
+}
+
 #box2 {
     display:flex;
     justify-content: center;

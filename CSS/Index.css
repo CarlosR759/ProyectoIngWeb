@@ -21,7 +21,11 @@
 #logo {
     height:90px;
     width:100px;
-    padding:10px;
+}
+
+#logobutton {
+    background-color: rgb(104, 127, 200);
+    border: none;
 }
 
 #login {

@@ -18,6 +18,11 @@
     font-family: 'Lato', sans-serif;
 }
 
+#panelDeBotones{
+    background-color: rgb(104, 127, 200);
+    padding: 10px;
+}
+
 #logo {
     height:90px;
     width:100px;

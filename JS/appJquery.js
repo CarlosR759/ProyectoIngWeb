@@ -14,16 +14,16 @@ $(document).ready(function() {
     messages:{
     email:{
     required: "el correo es requerido",
-    email: "el formato no es el correcto"
+    email: "el formato no es el correcto, necesita @"
     },
     contrasenya:{
     required: "la contraseña es requerida",
-    pwcheck: "la contraseña no tiene un formato válido",
+    pwcheck: "la contraseña tiene que ser de formato válido con letras minúsculas, mayúsculas y otro carácter",
     minlength: "debe contener 8 caracteres"
     },
     contrasenya2:{
     required: "la contraseña es requerida",
-    pwcheck: "la contraseña no tiene un formato válido",
+    pwcheck: "la contraseña tiene que ser de formato válido con letras minúsculas, mayúsculas y otro carácter",
     minlength: "debe contener 8 caracteres"
     }
 }
