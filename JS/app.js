@@ -21,17 +21,22 @@
                 console.log("el password no tiene el formato correcto");
                 campos.children[3].getElementsByClassName("invalid-feedback")[0].innerHTML = "Contraseña no valida";
             }
+            else {
+              console.log("la contraseña es: " + password.value);
+              document.getElementById("submit").onclick = function () {
+                window.location = "paginaprincipal.html";
+            };
+            }
             // sacar la contraseña
-            console.log("la contraseña es: " + password.value);
+            
 
           event.preventDefault();
           event.stopPropagation();
         }
         form.classList.add('was-validated'); // significa que el formulario fue validado 
         // FIXME: PON ACA UNA FUNCION PARA IR A LA PAGINA PRINCIPAL
-        document.getElementById("submit").onclick = function () {
-          window.location = "paginaprincipal.html";
-      };
+        // FIXME: put this part inside another if that checks if the password is valid 
+        
       }, false)
     })
   })()
