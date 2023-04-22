@@ -10,6 +10,10 @@ $(document).ready(function() {
     required: true,
     pwcheck: true,
     minlength: 8},
+    contrasenya2:{
+        required: true,
+        pwcheck: true,
+        minlength: 8},
     },
     messages:{
     email:{
