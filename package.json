@@ -1,0 +1,11 @@
+{
+  "name": "proyectoingweb",
+  "version": "1.0.0",
+  "description": "Proyecto para asignatura de Ingeniería Web.",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o css/ --recursive"
+  },
+  "author": "",
+  "license": "ISC"
+}
