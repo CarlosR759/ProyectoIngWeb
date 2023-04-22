@@ -21,7 +21,11 @@
 #logo {
     height:90px;
     width:100px;
-    padding:10px;
+}
+
+#logobutton {
+    background-color: rgb(104, 127, 200);
+    border: none;
 }
 
 #login {
@@ -71,7 +75,7 @@ h2 {
 }
 
 body{
-    background-color: rgb(110, 193, 162);
+    background-color: rgb(110, 193, 162) !important;
 }
 
 p {
@@ -125,4 +129,10 @@ p {
 #panelDeBotones{
     background-color: rgb(104, 127, 200);
     padding: 10px;
+}
+
+#campos{
+    display: flex;
+    justify-content: center;
+
 }
