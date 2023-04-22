@@ -14,7 +14,10 @@
 
     // capturando el valor del campo contrasenya2
     let password2=document.getElementById("contrasenya2");
-    console.log("la recontraseña es: " + password2.value);
+    if (password2 != null) {
+      console.log("la recontraseña es: " + password2.value);
+    }
+    
 
     // Loop over them and prevent submission
     Array.from(forms).forEach(form => {
@@ -40,7 +43,9 @@
         // imprimir todos los variables - FIXME: NO SALE NADA 
         console.log("el correo es: " + email.value); 
         console.log("la contraseña es: " + password.value);
-        console.log("la recontraseña es: " + password2.value);
+        if (password2 != null) {
+          console.log("la recontraseña es: " + password2.value);
+        }
         
       }, false)
     })

@@ -130,3 +130,9 @@ p {
     background-color: rgb(104, 127, 200);
     padding: 10px;
 }
+
+#campos{
+    display: flex;
+    justify-content: center;
+
+}
