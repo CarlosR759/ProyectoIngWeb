@@ -17,45 +17,46 @@
     console.log("la recontraseña es: " + password2.value);
 
     // Loop over them and prevent submission
-    // Array.from(forms).forEach(form => {
-    //   form.addEventListener('submit', event => {
-    //     if (!form.checkValidity()) { // funcion de bootstrap que chequea a los campos estan validados segun las condiciones en el html 
+    Array.from(forms).forEach(form => {
+      form.addEventListener('submit', event => {
+        if (!form.checkValidity()) { // funcion de bootstrap que chequea a los campos estan validados segun las condiciones en el html 
             
-    //         // cambiar mensaje de invalidacion
-    //         if (password.value != "" && !checkPattern()) {
-    //             console.log("el password no tiene el formato correcto");
-    //             campos.children[3].getElementsByClassName("invalid-feedback")[0].innerHTML = "Contraseña no valida";
-    //         }
-    //         else {
-    //           document.getElementById("submit").onclick = function () {
-    //             window.location = "paginaprincipal.html";
-    //         };
-    //         }
-    //         // sacar la contraseña
-    //         console.log("la contraseña es: " + password.value);
+            // cambiar mensaje de invalidacion
+            if (password.value != "" && !checkPattern()) {
+                console.log("el password no tiene el formato correcto");
+                campos.children[3].getElementsByClassName("invalid-feedback")[0].innerHTML = "Contraseña no valida";
+            }
+            else if (checkPattern()){
+              document.getElementById("submit").onclick = function () {
+                window.location = "paginaprincipal.html";
+            };
+            }
 
-    //       event.preventDefault();
-    //       event.stopPropagation();
-    //     }
-    //     form.classList.add('was-validated'); // significa que el formulario fue validado 
-    //     // FIXME: PON ACA UNA FUNCION PARA IR A LA PAGINA PRINCIPAL
-    //     // FIXME: put this part inside another if that checks if the password is valid 
+          event.preventDefault();
+          event.stopPropagation();
+        }
+        form.classList.add('was-validated'); // significa que el formulario fue validado 
+
+        // imprimir todos los variables - FIXME: NO SALE NADA 
+        console.log("el correo es: " + email.value); 
+        console.log("la contraseña es: " + password.value);
+        console.log("la recontraseña es: " + password2.value);
         
-    //   }, false)
-    // })
+      }, false)
+    })
   })()
 
   // chequear el patron de la contraseña 
-  // function checkPattern(){
-  //   var elem = document.getElementById("contrasenya");
-  //   var pattern = elem.getAttribute("^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$");
-  //   var re = new RegExp(pattern);
-  //   if (re.test(elem.value)) {
-  //   return true;
-  //   } else {
-  //   return false;
-  //   }
-  // }
+  function checkPattern(){
+    var elem = document.getElementById("contrasenya");
+    var pattern = elem.getAttribute("^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$");
+    var re = new RegExp(pattern);
+    if (re.test(elem.value)) {
+    return true;
+    } else {
+    return false;
+    }
+  }
 
 // LISTA DE QUEHACERES 
 // - pon un enlace a la pagina principal en el buton de submit 
