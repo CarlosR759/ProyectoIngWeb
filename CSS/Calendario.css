@@ -1,31 +1,36 @@
-ul {list-style-type: none;}
-body {font-family: Verdana, sans-serif;}
+ul {
+  list-style-type: none;
+}
+
+body {
+  font-family: Verdana, sans-serif;
+}
 
 #box {
-  display:flex;
-  background-color: rgb(104, 127, 200);  
-  font-family: 'Lato', sans-serif;
+  display: flex;
+  background-color: rgb(104, 127, 200);
+  font-family: "Lato", sans-serif;
 }
 
 h1 {
   font-size: 50px;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
-#panelDeBotones{
+#panelDeBotones {
   background-color: rgb(104, 127, 200);
   padding: 10px;
 }
 
 #logo {
-  height:90px;
-  width:100px;
-  padding:10px;
+  height: 90px;
+  width: 100px;
+  padding: 10px;
 }
 
-.mes{
+.mes {
   padding: 70px 25px;
-  width: 96.3%;
+  width: 99%;
   background: #2afa7c;
   text-align: center;
 }
@@ -42,20 +47,21 @@ h1 {
   letter-spacing: 3px;
 }
 
-.mes .ant{
+.mes .ant {
   float: left;
   padding-top: 10px;
 }
 
-.mes .sig{
+.mes .sig {
   float: right;
   padding-top: 10px;
 }
 
-.dias{
+.dias {
   margin: 0;
+  width: 99%;
   padding: 10px 0;
-  background-color:#ddd;
+  background-color: #ddd;
 }
 
 .dias li {
@@ -67,6 +73,7 @@ h1 {
 
 .fecha {
   padding: 10px 0;
+  width: 99%;
   background: #eee;
   margin: 0;
 }
@@ -77,7 +84,7 @@ h1 {
   width: 13.6%;
   text-align: center;
   margin-bottom: 5px;
-  font-size:12px;
+  font-size: 12px;
   color: #777;
 }
 
@@ -87,7 +94,9 @@ h1 {
   color: white;
 }
 
-.volver{
-    display: flex;
-    text-indent: 572%; 
+.volver {
+  display: flex;
+  text-indent: 572%;
 }
+
+/*# sourceMappingURL=Calendario.css.map */
