@@ -30,9 +30,10 @@ h1 {
 
 .mes {
   padding: 70px 25px;
-  width: 99%;
+  width: 100%;
   background: #2afa7c;
   text-align: center;
+  text-indent: 50%;
 }
 
 .mes ul {
@@ -42,7 +43,7 @@ h1 {
 
 .mes ul li {
   color: white;
-  font-size: 20px;
+  font-size: 15px;
   text-transform: uppercase;
   letter-spacing: 3px;
 }
@@ -59,7 +60,7 @@ h1 {
 
 .dias {
   margin: 0;
-  width: 99%;
+  width: 100%;
   padding: 10px 0;
   background-color: #ddd;
 }
@@ -73,7 +74,7 @@ h1 {
 
 .fecha {
   padding: 10px 0;
-  width: 99%;
+  width: 100%;
   background: #eee;
   margin: 0;
 }

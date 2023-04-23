@@ -19,7 +19,7 @@
     background-color: rgb(104, 127, 200);
     padding: 15px;
   }
-  button {
+  #panelDeBotones button {
     font-family: "Lato", sans-serif;
     font-size: 9px;
     width: 55px;
@@ -257,6 +257,36 @@ p {
   justify-content: center;
 }
 
+@media only screen and (max-width: 968px) {
+  #boxlayer1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #boxlayer2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #bigbuttons {
+    padding: 20px;
+    margin: 20px;
+    font-size: 15px;
+    background-color: rgb(104, 127, 200);
+  }
+  #bigbuttons2 {
+    padding: 20px;
+    margin: 20px;
+    font-size: 15px;
+    background-color: rgb(104, 127, 200);
+  }
+  #bigbuttons3 {
+    padding: 20px;
+    margin: 20px;
+    font-size: 15px;
+    background-color: rgb(104, 127, 200);
+  }
+}
 #panelDeBotones {
   background-color: rgb(104, 127, 200);
   padding: 10px;
