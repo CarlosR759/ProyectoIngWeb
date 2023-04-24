@@ -4,15 +4,14 @@ function revisar(){
   // CONSULTAS
   if(validarContenidoEmail($('#email').val()) == true){
       if(validarContenidoContrasena($('#contraseña').val()) == true){
-          window.location.href = "../html/paginaprincipal.html"
-          console.log("AQUI PORFA")
+          window.location.href = "../html/paginaprincipal.html";
       }
       else{
-          window.alert("Contraseña no valido")
+          window.alert("Contraseña no valido");
       }
   }
   else {
-      window.alert("Correo no valido")
+      window.alert("Correo electronico no valido");
   }
 }
 
@@ -39,6 +38,78 @@ function llamarformulario(){
   $.ajax({
       data: datos,
       url: '../html/formulario.html',
+      type: 'GET',
+      success: function(response){
+          $("#contenedorPrincipal").html(response);
+      }
+  });
+}
+
+function llamarsugerencias(){
+  var datos={};
+  $.ajax({
+      data: datos,
+      url: '../html/sugerencias.html',
+      type: 'GET',
+      success: function(response){
+          $("#contenedorPrincipal").html(response);
+      }
+  });
+}
+
+function llamarranking(){
+  var datos={};
+  $.ajax({
+      data: datos,
+      url: '../html/ranking.html',
+      type: 'GET',
+      success: function(response){
+          $("#contenedorPrincipal").html(response);
+      }
+  });
+}
+
+function llamarcalendario(){
+  var datos={};
+  $.ajax({
+      data: datos,
+      url: '../html/calendario.html',
+      type: 'GET',
+      success: function(response){
+          $("#contenedorPrincipal").html(response);
+      }
+  });
+}
+
+function llamardesafios(){
+  var datos={};
+  $.ajax({
+      data: datos,
+      url: '../html/desafios.html',
+      type: 'GET',
+      success: function(response){
+          $("#contenedorPrincipal").html(response);
+      }
+  });
+}
+
+function llamarwiki(){
+  var datos={};
+  $.ajax({
+      data: datos,
+      url: '../html/wiki.html',
+      type: 'GET',
+      success: function(response){
+          $("#contenedorPrincipal").html(response);
+      }
+  });
+}
+
+function llamarmicuenta(){
+  var datos={};
+  $.ajax({
+      data: datos,
+      url: '../html/verperfil.html',
       type: 'GET',
       success: function(response){
           $("#contenedorPrincipal").html(response);
