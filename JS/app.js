@@ -45,3 +45,7 @@ function llamarformulario(){
       }
   });
 }
+
+function irpaginaprincipal(){
+  window.location.href = "../html/paginaprincipal.html";
+}

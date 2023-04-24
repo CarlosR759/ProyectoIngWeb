@@ -53,6 +53,11 @@
                               <button id="botonenviar">Iniciar sesión</button>                       
                         </div>
                     </li>
+                    <li>
+                        <div class="col-12">
+                              <button id="botonprincipal">Ir a la página principal</button>                       
+                        </div>
+                    </li>
                 </ul>
             </form>
         </div>
@@ -63,9 +68,7 @@
         <script src="../JS/appJquery.js" defer></script>
     </body>
     
-
 </html>
-
 
 <!-- SCRIPT DEL BOTON SUPERIOR -->
 <script>
@@ -73,6 +76,10 @@
 		$("#botonenviar").click(function(e){
             //LLAMA A FUNCION DEL JS
 			revisar();
+		});
+        $("#botonprincipal").click(function(e){
+            //LLAMA A FUNCION DEL JS
+			irpaginaprincipal();
 		});
 	});
 </script>

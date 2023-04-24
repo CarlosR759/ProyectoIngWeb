@@ -60,6 +60,11 @@
                                 <button class="btn btn-primary" style="width: 120px;" type="submit" id="botonenviar">Crear cuenta</button>
                             </div>
                         </li>
+                        <li>
+                            <div class="col-12">
+                                  <button id="botonprincipal">Ir a la página principal</button>                       
+                            </div>
+                        </li>
                     </ul>
                 </form>
             </section>
@@ -78,6 +83,10 @@
 		$("#botonenviar").click(function(e){
             //LLAMA A FUNCION DEL JS
 			revisar();
+		});
+        $("#botonprincipal").click(function(e){
+            //LLAMA A FUNCION DEL JS
+			irpaginaprincipal();
 		});
 	});
 </script>
